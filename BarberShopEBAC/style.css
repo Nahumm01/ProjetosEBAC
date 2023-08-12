@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+form,input,
+button, textarea {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 22px;
+  color: cornsilk;
+}
+
+header h2,
+section h2,
+section h3, footer {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background-image: url(./images/pexels-cottonbro-studio-4542858.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background: linear-gradient(to right, #003399, #dc143c, #ffffff);
+  color: white;
+  padding: 5px;
+}
+
+header nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .container,
+.products .container,
+.contact .container,
+.local .container {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.products-shop {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.products-shop li {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.products-shop li button {
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.btnCorte {
+  background-image: url(./images/pexels-luis-quintero-1453005.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btnBarba {
+  background-image: url(./images/pexels-nikolaos-dimou-1319461.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btnPromo {
+  background-image: url(./images/pexels-thgusstavo-santana-2040189.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact-links li {
+  display: flex;
+  display: inline;
+  margin-right: 20px;
+}
+
+.contact-links li img {
+  width: 40px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+form button {
+  background: linear-gradient(to right, #003399, #dc143c, #ffffff);
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #324986;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #b30101;
+}
+
+footer {
+  background: linear-gradient(to left, #003399, #dc143c, #ffffff);
+  color: #ecf0f1;
+  padding: 16px 0;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+}
+
+
+.local .container p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
